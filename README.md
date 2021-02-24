@@ -13,7 +13,7 @@ My very own Linux shell called BSH (Brahma Shell).
 # chsh $YOUR_UNIX_USERNAME
 ```
 Log out and log back in.
-## Help
+## Help (Link: https://tinyurl.com/bshhelpongithub)
 ### Shell Built-in Commands:
 ```bsh
 cd - change directory
