@@ -8,6 +8,7 @@ binary:
 
 install: binary
 	cp bsh /usr/local/bin/bsh
+	chown root:root /usr/local/bin/bsh
 	chmod 755 /usr/local/bin/bsh
 
 uninstall:
