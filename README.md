@@ -29,3 +29,5 @@ For example:
 echo Hello!@
 ```
 is still valid. This is not the case for external commands, though.
+
+If you want to show it to somebody that does not have Python, but uses Linux, use `pyinstaller`.
