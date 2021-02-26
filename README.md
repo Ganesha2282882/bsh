@@ -10,7 +10,7 @@ $ make
 # make install
 ```
 There is no `./configure`.
-### Change the shell (Removes your account from DMs, but still login using username.):
+### Change the shell (Removes your account from DMs, but still you can login using username.):
 ```bash
 # chsh $YOUR_UNIX_USERNAME
 ```
