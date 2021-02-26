@@ -3,7 +3,6 @@ NOTE: If an error with the shell has occurred, it will logout automatically.
 
 My very own Linux shell called BSH (Brahma Shell).
 
-Because it uses just a Python interpreter, it might actually run on Windows!
 ## Installation
 ### Do the normal make:
 ```bash
