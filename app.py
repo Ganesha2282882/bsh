@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # BSH code
 # BSH is a simplistic shell.
 
