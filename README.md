@@ -9,7 +9,7 @@ My very own Linux shell called BSH (Brahma Shell).
 $ make
 # make install
 ```
-There is no `./configure`.
+There is no `./configure`. You also need `pyinstaller`.
 ### Change the shell (Removes your account from DMs, but still you can login using username.):
 ```bash
 # chsh $YOUR_UNIX_USERNAME
