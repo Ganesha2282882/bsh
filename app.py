@@ -3,6 +3,7 @@
 
 import os
 import sys
+import subprocess
 
 def getargs(cmd):
 	output = cmd.split(" ")
@@ -21,4 +22,4 @@ while True:
 		sys.exit()
 
 	else:
-		os.system(cmd)
+		subprocess.call(getargs(cmd))
