@@ -22,4 +22,4 @@ while True:
 		sys.exit()
 
 	else:
-		subprocess.call(getargs(cmd))
+		subprocess.call(cmd.split(" "))
