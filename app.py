@@ -12,13 +12,17 @@ def getargs(cmd):
 
 while True:
 	cmd = input("% ")
-	if "echo " in cmd:
+	cmd = cmd.split(" ")
+
+	if "echo" == cmd[0]:
+		cmd = " ".join(cmd)
 		print(" ".join(getargs(cmd)))
 
-	elif "cd " in cmd:
+	elif "cd" == cmd[0]:
+		cmd = " ".join(cmd)
 		os.chdir(" ".join(getargs(cmd)))
 
-	elif "exit" in cmd:
+	elif "exit" == cmd[0]:
 		sys.exit()
 
 	else:
